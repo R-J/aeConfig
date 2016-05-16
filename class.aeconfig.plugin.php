@@ -3,7 +3,7 @@
 $PluginInfo['aeConfig'] = array(
     'Name' => 'Advanced Editor Config',
     'Description' => 'Allows to configure the formatting options of the advanced editor.',
-    'Version' => '0.1',
+    'Version' => '0.2',
     'RequiredApplications' => array('Vanilla' => '>= 2.2'),
     'RequiredPlugins' => array('editor' => '>= 1.7.2'),
     'RequiredTheme' => false,
