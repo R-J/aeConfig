@@ -16,8 +16,6 @@ $PluginInfo['aeConfig'] = array(
     'License' => 'MIT'
 );
 
-
-
 /**
  * Allows configuring the formatting options of Vanillas advanced editor.
  *
@@ -48,7 +46,7 @@ class AEConfigPlugin extends Gdn_Plugin {
      * @package aeConfig
      * @since 0.1
      */
-    public function settingsController_aeconfig_create            ($sender) {
+    public function settingsController_aeconfig_create($sender) {
         $sender->permission('Garden.Settings.Manage');
         
         $sender->addSideMenu('dashboard/settings/plugins');
@@ -71,7 +69,7 @@ class AEConfigPlugin extends Gdn_Plugin {
     /**
      * Change editors default configuration based on the custom settings.
      *
-     * @param baseController $sender The sending conroller.
+     * @param baseController $sender The sending controller.
      * @param mixed $args EventArguments.
      * @return void.
      * @package aeConfig
