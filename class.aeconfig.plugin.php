@@ -5,7 +5,7 @@ $PluginInfo['aeConfig'] = array(
     'Description' => 'Allows to configure the formatting options of the advanced editor.',
     'Version' => '0.1',
     'RequiredApplications' => array('Vanilla' => '>= 2.2'),
-    'RequiredPlugins' => array('editor' => '>= 1.7.5'),
+    'RequiredPlugins' => array('editor' => '>= 1.7.2'),
     'RequiredTheme' => false,
     'SettingsPermission' => 'Garden.Settings.Manage',
     'SettingsUrl' => '/dashboard/settings/aeconfig',
